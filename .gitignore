@@ -1,0 +1,16 @@
+/Components
+/PPG Logseq Vault
+/Project Info
+
+# KiCad session-local / generated files
+*.kicad_prl
+_autosave-*
+fp-info-cache
+*-backups/
+
+# FreeCAD backups and slicer output (keep source .FCStd, drop derived files)
+*.FCBak
+*.FCStd1
+*.gcode
+*.3mf
+.~lock.*#
