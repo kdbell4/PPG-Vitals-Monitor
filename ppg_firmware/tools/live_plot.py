@@ -99,12 +99,13 @@ def main():
     ax.set_ylim(args.ymin, args.ymax)
 
     (spectrum_line,) = ax_fft.plot([], [])
-    peak_marker = ax_fft.axvline(0, color="tab:red", linestyle="--", alpha=0)
-    peak_text = ax_fft.text(0.98, 0.92, "", transform=ax_fft.transAxes, ha="right")
+    peak_marker = ax_fft.axvline(0, color="tab:red", linestyle="--", alpha=0, label="Heart-rate peak")
+    peak_text = ax_fft.text(0.98, 0.80, "", transform=ax_fft.transAxes, ha="right", color="tab:red")
     ax_fft.set_title("Spectrum (FFT)")
     ax_fft.set_xlabel("Frequency (Hz)")
     ax_fft.set_ylabel("Magnitude")
     ax_fft.set_xlim(0, args.sample_rate / 2)
+    ax_fft.legend(loc="upper right")
     fig.tight_layout()
 
     def update(_frame):
