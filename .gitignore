@@ -13,4 +13,5 @@ fp-info-cache
 *.FCStd1
 *.gcode
 *.3mf
+*.lck
 .~lock.*#
