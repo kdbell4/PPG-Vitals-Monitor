@@ -25,6 +25,16 @@
           "color": "rgb(228, 26, 28)",
           "signal": "V(/high)",
           "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/low)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(/outf)",
+          "trace_type": 257
         }
       ]
     }
