@@ -6376,7 +6376,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "MCP6002"
 			(at 90.17 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6549,7 +6549,7 @@
 		(fields_autoplaced yes)
 		(uuid "d219a2f8-0508-4207-946a-895738482153")
 		(property "Reference" "U2"
-			(at 252.73 57.0798 90)
+			(at 251.46 57.0798 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6558,8 +6558,8 @@
 				)
 			)
 		)
-		(property "Value" "MCP6001x-LT"
-			(at 252.73 59.6198 90)
+		(property "Value" "MCP6002"
+			(at 251.46 59.6198 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6692,7 +6692,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "MCP6002"
 			(at 242.57 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7031,7 +7031,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "MCP6002"
 			(at 194.31 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
