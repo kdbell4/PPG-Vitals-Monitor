@@ -50,3 +50,11 @@ MCU: ADC + firmware -- heart rate, SpO2, bio-ID match
 3D-printed parts (`CAD/`) hold the LED and photodiode in stable optical
 alignment across the fingertip. Built in FreeCAD; STLs are exported for slicing and
 printing.
+
+# Credits
+
+- [XenGi](https://github.com/XenGi) for the Teensy symbol and footprint libraries for kicad
+  
+  - https://github.com/XenGi/teensy_library
+
+- https://github.com/XenGi/teensy.pretty
