@@ -1,0 +1,21 @@
+.title KiCad schematic
+.include "/usr/share/kicad/symbols/Simulation_SPICE.sp"
+XU2 Net-_U2-+_ GND /high /low GND kicad_builtin_opamp
+R7 Net-_U2-+_ /high 10k
+V6 /high /low DC 3.3 
+R6 /low Net-_U2-+_ 10k
+XU1 /out1 /in GND /low GND Net-_U1B--_ /outf /high kicad_builtin_opamp_dual
+C6 /high GND 10u
+C5 GND /low 10u
+R1 /in /out1 10k
+I1 GND /in DC 100u SIN( 100u 1u 10 0 0 0 ) AC 1  
+I2 GND GND DC 0 SIN( 0 10u 100 0 0 0 ) AC 1  
+C3 /out1 /in 22p
+R3 /out3 GND 5k
+R5 /outf Net-_U1B--_ 100k
+C1 /out2 GND 10u
+C2 /out2 /out3 100u
+C4 /outf Net-_U1B--_ 22p
+R4 /out3 Net-_U1B--_ 2k
+R2 /out1 /out2 330
+.end
