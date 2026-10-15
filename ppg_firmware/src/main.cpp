@@ -21,7 +21,7 @@ elapsedMicros sinceLastSample;
 
 // Digital pin the breadboard LED's resistor leg is wired to.
 // Change this to match your wiring.
-constexpr uint8_t BREADBOARD_LED_PIN = 14;
+constexpr uint8_t BREADBOARD_LED_PIN = 3;
 
 // Strobe LED: a separate pin toggled to flash at a fixed 1 Hz (one full
 // on/off cycle per second), i.e. the pin is toggled every 500 ms.
